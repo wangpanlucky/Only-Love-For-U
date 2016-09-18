@@ -96,11 +96,31 @@ export default {
   }],
   User:[{
     username:'wangting@163.com',
-    password:'wt1234'
+    password:'123456'
   }, 
   {
     username: 'liuru@163.com',
-    password: '111111'
+    password: '123456'
+  },
+  {
+    username: 'wangpan@163.com',
+    password: '123456'
+  },
+  {
+    username: 'hanyile@163.com',
+    password: '123456'
+  },
+  {
+    username: 'cuiqian@163.com',
+    password: '123456'
+  },
+  {
+    username: 'qinqi@163.com',
+    password: '123456'
+  },
+  {
+    username: 'wanggenwang@163.com',
+    password: '123456'
   }],
   Order:[{
     username:'其实我是黄蓉＿＿嘿嘿嘿',

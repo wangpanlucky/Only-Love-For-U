@@ -26,34 +26,6 @@ const todoRequestMiddleware = store=> next=> action=> {// eslint-disable-line no
           }
         });
     break;
-   /* case 'INIT':
-      request.get('/users')
-          .end((err,res) => {
-            next({
-              type: 'SIGNUP',
-              data: ''
-            });
-          });
-          
-      break;
-    case 'SIGNUP_SUCCESS':
-      browserHistory.push('/');
-      request.get('/users')
-          .end((err,res) => {
-          store.dispatch({
-              type: 'INIT'
-            });
-          });
-
-      break;
-    case 'SIGNUP_FAIR':
-      request.get('/users')
-          .end((err,res) => {
-            store.dispatch({
-              type: 'INIT'
-            });
-          });
-  */
   }
   next(action);
 };

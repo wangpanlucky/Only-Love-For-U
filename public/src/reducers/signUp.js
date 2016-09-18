@@ -10,10 +10,8 @@ const usersignup = (state = '', action)=> {
   case 'SIGNUP_SUCCESS':
 
     return action.data;
- /* case 'SIGNUP':
 
-    return action.data;
-  */}
+  }
   return state;
 };
 
